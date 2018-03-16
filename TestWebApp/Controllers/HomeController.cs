@@ -17,6 +17,7 @@ namespace TestWebApp.Controllers
         {
             ViewBag.Message = "Your application description page.";
             throw new NullReferenceException();
+            var AnyVariable = "test";
 
             return View();
         }
